@@ -120,7 +120,7 @@ REPLACE INTO `pengguna` (`id`, `username`, `password`, `peran`, `login_terakhir`
 	(8, 'lily', '89f288757f4d0693c99b007855fc075e', 'USER', NULL);
 /*!40000 ALTER TABLE `pengguna` ENABLE KEYS */;
 
--- Dumping data for table praktikum_presensi_penggajian.presensi: ~552 rows (approximately)
+-- Dumping data for table praktikum_presensi_penggajian.presensi: ~545 rows (approximately)
 /*!40000 ALTER TABLE `presensi` DISABLE KEYS */;
 REPLACE INTO `presensi` (`id`, `karyawan_id`, `tanggal`, `jam_masuk`, `jam_keluar`, `keterangan`) VALUES
 	(1, 3, '2020-11-01', NULL, NULL, 'AKHIR PEKAN'),
